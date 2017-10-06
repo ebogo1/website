@@ -1277,7 +1277,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 
 .section-intro h2 {
     font-family: "montserrat-semibold", sans-serif;
-    font-size: 2rem;
+    font-size: 1.75rem;
     color: #36556b;
     text-transform: lowercase;
     letter-spacing: .15rem;
@@ -1287,16 +1287,16 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 
 .section-intro h3 {
     font-family: "montserrat-semibold", sans-serif;
-    font-size: 2rem;
+    font-size: 2.5rem;
     color: #9b9db0;
     text-transform: uppercase;
     letter-spacing: .15rem;
     margin-top: 0;
-    margin-bottom: 0;
+    margin-bottom: 6rem;
 }
 
 .section-intro.has-bottom-sep {
-    
+    padding-bottom: 0rem;
     position: relative;
 }
 
@@ -1795,7 +1795,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     margin-left: -30px;
     margin-bottom: .6rem;
 }
-
+/*
 .home-content h3::before {
     display: block;
     content: "";
@@ -1806,7 +1806,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     position: absolute;
     left: 0;
     top: 50%;
-}
+}*/
 
 .home-content h1 {
     font-family: "librebaskerville-bold", serif;
@@ -2371,6 +2371,17 @@ html.no-csstransitions .home-content__main {
     position: relative;
 }
 
+/* ===================================================================
+ * # code - (_site-layout.scss)
+ *
+ * ------------------------------------------------------------------- */
+
+.s-code {
+    padding-top: 15rem;
+    padding-bottom: 15.6rem;
+    background-color: #cfd1d4;
+    position: relative;
+}
 
 /* ------------------------------------------------------------------- 
  * ## bricks/masonry - (_site-layout.scss)
@@ -2412,7 +2423,7 @@ html.no-csstransitions .home-content__main {
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 101%;
     height: 100%;
     opacity: .8;
     background: -moz-linear-gradient(top, transparent 0%, rgba(0, 0, 0, 0.8) 100%);

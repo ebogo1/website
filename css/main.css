@@ -1815,9 +1815,13 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 
 .home-content__buttons {
     position: absolute;
-    right: 0;
+    top:125%; 
+    left:50%; 
+    transform:translate(-50%, -50%); 
+    width:50%;    
+    margin-left: 12%;
     bottom: 2.1rem;
-    text-align: center;
+    text-align: center;    
 }
 
 .home-content__buttons .btn {
@@ -2658,7 +2662,7 @@ html.no-csstransitions .home-content__main {
     background-repeat: no-repeat;
     background-position: center, center;
     padding-top: 13.2rem;
-    padding-bottom: 2rem;
+    padding-bottom: 11rem;
     color: rgba(255, 255, 255, 0.5);
     position: relative;
 }

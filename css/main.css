@@ -98,13 +98,13 @@ body {
  * ------------------------------------------------------------------- */
 
 a {
-    color: #9b9db0;
+    color: #7c7e92;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
 }
 
 a:hover, a:focus, a:active {
-    color: #191A3F;
+    color: #1e384b;
 }
 
 a:focus {
@@ -185,6 +185,7 @@ h5, .h05 {
 
 h6, .h06 {
     font-family: "montserrat-bold", sans-serif;
+    color: #cfd1d4;
     font-size: 1.4rem;
     line-height: 1.5;
     text-transform: uppercase;
@@ -200,7 +201,7 @@ p.lead {
     font-size: 2rem;
     line-height: 1.8;
     margin-bottom: 3.6rem;
-    color: #ffffff;
+    color: #cfd1d4;
 }
 
 @media only screen and (max-width: 800px) {
@@ -1268,9 +1269,20 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 
 .section-intro h1 {
     font-family: "librebaskerville-bold", serif;
+    color: #ffffff;
     font-size: 4.8rem;
     line-height: 1.375;
     margin-top: 0;
+}
+
+.section-intro h2 {
+    font-family: "montserrat-semibold", sans-serif;
+    font-size: 2rem;
+    color: #36556b;
+    text-transform: lowercase;
+    letter-spacing: .15rem;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .section-intro h3 {
@@ -1284,7 +1296,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .section-intro.has-bottom-sep {
-    padding-bottom: 1.5rem;
+    
     position: relative;
 }
 
@@ -1358,12 +1370,12 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     margin-top: .3rem;
     margin-bottom: 2.1rem;
     padding-bottom: 2.4rem;
-    color: #0D0A0B;
+    color: #9b9db0;
     position: relative;
 }
 
 .blog-list h2 a {
-    color: #0D0A0B;
+    color: #9b9db0;
 }
 
 .blog-list h2::after {
@@ -1660,7 +1672,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 
 .header-nav li.current a {
     font-family: "montserrat-extrabold", sans-serif;
-    color: #807e8f;
+    color: #7c7e92;
 }
 
 
@@ -1775,7 +1787,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .home-content h3 {
     font-family: "montserrat-bold", sans-serif;
     font-size: 1.8rem;
-    color: #9b9db0;
+    color: #1e384b;
     text-transform: uppercase;
     letter-spacing: .35rem;
     position: relative;
@@ -1789,7 +1801,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     content: "";
     width: 60px;
     height: 2px;
-    background-color: #9b9db0;
+    background-color: #1e384b;
     margin-top: -1.5px;
     position: absolute;
     left: 0;
@@ -1834,9 +1846,9 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .home-content__scroll {
-    position: absolute;
+    position: absolute;    
     left: .6rem;
-    bottom: -13.2rem;
+    bottom: -24rem;
 }
 
 .home-content__scroll a {
@@ -1852,13 +1864,13 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .home-content__scroll a::after {
-    border-bottom: 2px solid #922424;
-    border-right: 2px solid #922424;
+    border-bottom: 2px solid #7c7e92;
+    border-right: 2px solid #7c7e92;
     content: '';
     display: block;
     height: 8px;
     width: 8px;
-    margin-top: -7px;
+    margin-top: -6px;
     pointer-events: none;
     position: absolute;
     right: 0;
@@ -2355,7 +2367,7 @@ html.no-csstransitions .home-content__main {
 .s-works {
     padding-top: 15rem;
     padding-bottom: 15.6rem;
-    background-color: #f1f1f1;
+    background-color: #000000;
     position: relative;
 }
 
@@ -3041,7 +3053,7 @@ html.no-csstransitions .home-content__main {
 
 .s-contact {
     background-color: #151515;
-    background-image: url("../images/contact-bg.jpg");
+    background-image: url("../images/clouds_footer.png");
     background-repeat: no-repeat;
     background-position: center, center;
     padding-top: 13.2rem;

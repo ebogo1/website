@@ -482,7 +482,7 @@ th:last-child, td:last-child {
  * ## Spacing - (_document-setup.scss)  
  * ------------------------------------------------------------------- */
 
-button, .btn {
+button, .btn {    
     margin-bottom: 1.2rem;
 }
 
@@ -786,17 +786,18 @@ input[type="button"] {
     letter-spacing: .3rem;
     height: 5.4rem;
     line-height: calc(5.4rem - .6rem);
-    padding: 0 0rem;
-    margin: 0 .3rem 1.2rem 0;
-    color: #1e384b;
+    padding: 0 2rem;
+    margin-top: 3rem;
+    margin-bottom: 0rem;
+    color: #cfd1d4;
     text-decoration: none;
     cursor: pointer;
     text-align: center;
     white-space: nowrap;
     -webkit-transition: all 0.25s ease-in-out;
     transition: all 0.25s ease-in-out;
-    background-color: #1e384b;
-    border: .3rem solid #1e384b;
+    background-color: transparent;
+    border: .3rem solid #cfd1d4;
 }
 
 .btn:hover, 
@@ -808,8 +809,8 @@ input[type="button"]:hover,
 input[type="submit"]:focus, 
 input[type="reset"]:focus, 
 input[type="button"]:focus {
-    background-color: #b8b8b8;
-    border-color: #b8b8b8;
+    background-color: #cfd1d4;
+    border-color: #cfd1d4;
     color: #000000;
     outline: 0;
 }
@@ -1822,7 +1823,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     left:50%; 
     transform:translate(-50%, -50%); 
     width:50%;    
-    margin-left: 12%;
+    margin-left: 0%;
     bottom: 2.1rem;
     text-align: center;    
 }
@@ -2898,7 +2899,7 @@ html.no-csstransitions .home-content__main {
     background-repeat: no-repeat;
     background-position: center, center;
     padding-top: 13.2rem;
-    padding-bottom: 12rem;
+    padding-bottom: 1.5rem;
     color: rgba(255, 255, 255, 0.5);
     position: relative;
 }
@@ -3039,7 +3040,7 @@ html.no-csstransitions .home-content__main {
     top: 1.8rem;
     width: 100%;
     text-align: center;
-    margin-bottom: 4.2rem;
+    margin-bottom: .2rem;
 }
 
 .submit-loader .text-loader {

@@ -2633,8 +2633,8 @@ html.no-csstransitions .home-content__main {
  * ------------------------------------------------------------------- */
 
 .masonryc-wrap {
-    margin-top: -7rem;
-    max-width: none;
+    margin-top: -7rem;    
+    max-width: 1200;
     width: 1600px;
 }
 

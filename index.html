@@ -117,9 +117,7 @@
         <div class="row narrow section-intro">
             <div class="col-full">
                 <h3>Demo Reel</h3>
-                <iframe width="853.33" height="480"
-                src="" >
-                </iframe>                                    
+                <iframe src="https://player.vimeo.com/video/237344372" width="720" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
             </div>
         </div>        
 
@@ -137,18 +135,17 @@
 
         <div class="row masonryc-wrap">
             <div class="masonryc">
-                
+
                 <div class="masonryc__brick">
-                    <div class="item-folio">
+                    <div class="item-folio">                                            
 
                         <div class="item-folio__thumb">
                             <a href="images/code/cars.png" class="thumb-link" title="Rasterizer" data-size="980x416">
                                 <img src="images/code/cars_preview.png" 
-                                     srcset="images/code/cars_preview.png 1x" alt="">
-                                <span class="shadow-overlay"></span>
+                                     srcset="images/code/cars_preview.png 1x" alt="">                                
                             </a>
                         </div>
-
+                        
                         <div class="item-folio__text">
                             <h3 class="item-folio__title">
                                 3D Rasterizer
@@ -156,10 +153,11 @@
                             <p class="item-folio__cat">
                                 C++
                             </p>
+
                         </div>
 
                         <div class="item-folio__caption">
-                            <p style = "color: #cfd1d4">Wrote a 3D Rasterizer using the GLM library in C++ (view and projection matrices were created without using GLM's helper functions). The above images were created with my rasterizer. I made the car model in Maya and textured it in Photoshop.</a></p>
+                            <p style = "color: #cfd1d4">Wrote a 3D Rasterizer using the GLM library in C++ that implements Lambertian shading and UV mapping. The above images were created with my rasterizer. I modeled the car in Maya and textured it in Photoshop.</a></p>
                         </div>
 
                     </div> <!-- end item-folio -->
@@ -169,10 +167,9 @@
                     <div class="item-folio">
 
                         <div class="item-folio__thumb">
-                            <a href="images/code/cars.png" class="thumb-link" title="Shaders" data-size="980x416">
-                                <img src="images/code/cars_preview.png" 
-                                     srcset="images/code/cars_preview.png 1x" alt="">
-                                <span class="shadow-overlay"></span>
+                            <a href="images/code/opengl.png" class="thumb-link" title="OpenGL Shaders" data-size="980x416">
+                                <img src="images/code/opengl_preview.png" 
+                                     srcset="images/code/opengl_preview.png 1x" alt="">                                
                             </a>
                         </div>
 
@@ -181,12 +178,13 @@
                                 OpenGL Shaders
                             </h3>
                             <p class="item-folio__cat">
-                                C++
+                                C++/GLSL
                             </p>
                         </div>
 
                         <div class="item-folio__caption">
-                            <p style = "color: #cfd1d4">Wrote a 3D Rasterizer using the GLM library in C++ (view and projection matrices were created without using GLM's helper functions). The above images were created with my rasterizer. I made the car model in Maya and textured it in Photoshop.</a></p>
+                            <p style = "color: #cfd1d4">Implemented the Lambert, Blinn-Phong, and MatCap shading models, as well as a couple other shaders with OpenGL. The distorted car in the top right is a frame taken from a vertex deformation shader that interpolates vertex positions over time between their original positions and their positions on a flattened sphere. I modeled both objects in Maya and textured them in Photoshop.
+                            </p>
                         </div>
 
                     </div> <!-- end item-folio -->

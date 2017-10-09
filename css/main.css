@@ -420,8 +420,6 @@ dd {
 iframe {
     width: 100%;
     border: 12px solid black;
-    border-right-width: 64px;
-    border-left-width: 64px;
 }
 
 
@@ -2650,7 +2648,7 @@ html.no-csstransitions .home-content__main {
 
 .masonryc__brick {
     float: left;
-    padding: 8px;
+    padding: 12px;
 }
 
 .citem-folio {
@@ -2670,7 +2668,7 @@ html.no-csstransitions .home-content__main {
     left: 0;
     width: 101%;
     height: 100%;
-    opacity: .8;
+    opacity: 50;
     background: -moz-linear-gradient(top, transparent 0%, rgba(0, 0, 0, 0.8) 100%);
     background: -webkit-linear-gradient(top, transparent 0%, rgba(0, 0, 0, 0.8) 100%);
     background: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.8) 100%);

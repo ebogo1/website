@@ -2397,7 +2397,7 @@ html.no-csstransitions .home-content__main {
  * ## bricks/masonry - (_site-layout.scss)
  * ------------------------------------------------------------------- */
 
-.masonry-wrap {
+.masonry-wrap {      
     margin-top: 4.8rem;
     max-width: none;
     width: 1600px;
@@ -2405,7 +2405,7 @@ html.no-csstransitions .home-content__main {
 
 .masonry:after {
     content: "";
-    display: table;
+    display: block;
     clear: both;
 }
 
@@ -2579,7 +2579,7 @@ html.no-csstransitions .home-content__main {
 
 @media only screen and (max-width: 1700px) {
     .masonry-wrap {
-        width: 1400px;
+        width: 1400px;        
     }
     .masonry .grid-sizer, .masonry__brick {
         width: 350px;

@@ -52,7 +52,7 @@
             <ul class="header-nav">
                 <li class="current"><a class="smoothscroll"  href="#home" title="home">Home</a></li>                
                 <li><a class="smoothscroll"  href="#reel" title="reel">Reel</a></li>
-                <li><a class="smoothscroll"  href="#code" title="code">Code</a></li> 
+                <li><a class="smoothscroll"  href="code.html" title="code">Code</a></li> 
                 <li><a class="smoothscroll"  href="#artwork" title="artwork">Artwork</a></li>                
             </ul>
         </nav>
@@ -117,7 +117,7 @@
         <div class="row narrow section-intro">
             <div class="col-full">
                 <h3>Demo Reel</h3>
-                <iframe src="https://player.vimeo.com/video/237344372" width="720" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                <iframe src="https://player.vimeo.com/video/254975231" width="720" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>                
             </div>
         </div>        
 
@@ -130,40 +130,68 @@
         <div class="row narrow section-intro has-bottom-sep">
             <div class="col-full">
                 <h3>Code</h3>
+                <h2>-computer graphics-</h2>
             </div>
         </div>
 
-        <div class="row masonryc-wrap">
-            <div class="masonryc">
+        <div class="row masonry-wrap">
+            <div class="masonry">
 
-                <div class="masonryc__brick">
-                    <div class="item-folio">                                            
+                <div class="masonry__brick">
+                    <div class="item-folio">
 
                         <div class="item-folio__thumb">
-                            <a href="images/code/cars.png" class="thumb-link" title="Rasterizer" data-size="980x416">
-                                <img src="images/code/cars_preview.png" 
-                                     srcset="images/code/cars_preview.png 1x" alt="">                                
+                            <a href="images/code/minecraft.png" class="thumb-link" title="Mini Minecraft" data-size="2862x1678">
+                                <img src="images/code/minecraft_preview.png" 
+                                     srcset="images/code/minecraft_preview.png 1x" alt="">
+                                <span class="shadow-overlay"></span>
                             </a>
                         </div>
-                        
+
                         <div class="item-folio__text">
                             <h3 class="item-folio__title">
-                                3D Rasterizer
+                                Mini Minecraft
+                            </h3>
+                            <p class="item-folio__cat">
+                                C++ | GLSL
+                            </p>
+                        </div>
+
+                        <div class="item-folio__caption">
+                            <p style = "color: #cfd1d4">Group project with Jason Wang and Tiffany Yue. Recreated some of Minecraft's features in C++. I was responsible for efficient terrain chunking and VBO optimizations. Implemented distance fog and per-fragment texture attributes.</a></p>
+                        </div>
+
+                    </div> <!-- end item-folio -->
+                </div> <!-- end masonry__brick -->
+
+                <div class="masonry__brick">
+                    <div class="item-folio">
+
+                        <div class="item-folio__thumb">
+                            <a href="images/code/raytracer.png" class="thumb-link" title="Ray Tracer" data-size="1280x720">
+                                <img src="images/code/raytracer_preview.png" 
+                                     srcset="images/code/raytracer_preview.png 1x" alt="">
+                                <span class="shadow-overlay"></span>
+                            </a>
+                        </div>
+
+                        <div class="item-folio__text">
+                            <h3 class="item-folio__title">
+                                Ray Tracer
                             </h3>
                             <p class="item-folio__cat">
                                 C++
                             </p>
-
                         </div>
 
                         <div class="item-folio__caption">
-                            <p style = "color: #cfd1d4">Wrote a 3D Rasterizer using the GLM library in C++ that implements Lambertian shading and UV mapping. The above images were created with my rasterizer. I modeled the car in Maya and textured it in Photoshop.</a></p>
+                            <p style = "color: #cfd1d4">Wrote a primitive ray tracer from scratch. Supports point lights and area lights, three unique surface materials (diffuse, specular, and reflective), and ambient occlusion.</a></p>
                         </div>
 
                     </div> <!-- end item-folio -->
-                </div> <!-- end masonry__brick --> 
+                </div> <!-- end masonry__brick -->                        
 
-                <div class="masonryc__brick">
+                <div class="masonry__brick">
                     <div class="item-folio">
 
                         <div class="item-folio__thumb">
@@ -178,12 +206,12 @@
                                 OpenGL Shaders
                             </h3>
                             <p class="item-folio__cat">
-                                C++/GLSL
+                                C++ | GLSL
                             </p>
                         </div>
 
                         <div class="item-folio__caption">
-                            <p style = "color: #cfd1d4">Implemented the Lambert, Blinn-Phong, and MatCap shading models, as well as a couple other shaders with OpenGL. The distorted car in the top right is a frame taken from a vertex deformation shader that interpolates vertex positions over time between their original positions and their positions on a flattened sphere. I modeled both objects in Maya and textured them in Photoshop.
+                            <p style = "color: #cfd1d4">Implemented several shading models including Lambert, Blinn-Phong, and MatCap. The distorted car in the top right is a frame from a vertex and fragment deformation shader I wrote. I modeled both objects in Maya and textured them in Photoshop.
                             </p>
                         </div>
 
@@ -349,16 +377,16 @@
                     <div class="item-folio">
 
                         <div class="item-folio__thumb">
-                            <a href="images/portfolio/gallery/meany.png" class="thumb-link" title="Meany" data-size="720x720">
-                                <img src="images/portfolio/meany_preivew.png" 
-                                     srcset="images/portfolio/meany_preview.png 1x" alt="">
+                            <a href="images/portfolio/gallery/self.png" class="thumb-link" title="Self Portrait" data-size="487x643">
+                                <img src="images/portfolio/self_preivew.png" 
+                                     srcset="images/portfolio/self_preview.png 1x" alt="">
                                 <span class="shadow-overlay"></span>
                             </a>
                         </div>
 
                         <div class="item-folio__text">
                             <h3 class="item-folio__title">
-                                Meany
+                                Eli
                             </h3>
                             <p class="item-folio__cat">
                                 digital painting
@@ -366,7 +394,7 @@
                         </div>
 
                         <div class="item-folio__caption">
-                            <p style = "color: #cfd1d4">even less friendly in person</a></p>
+                            <p style = "color: #cfd1d4">a self portrait</a></p>
                         </div>
 
                     </div> <!-- end item-folio -->

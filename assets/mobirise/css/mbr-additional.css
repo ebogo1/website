@@ -2325,6 +2325,60 @@ body {
 .cid-qZMyzVmXA8 .mbr-section-btn {
   text-align: right;
 }
+.cid-qZPeWiukgk {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #ffffff;
+}
+.cid-qZPeWiukgk .mbr-text,
+.cid-qZPeWiukgk blockquote {
+  color: #767676;
+}
+.cid-qZPeWiukgk .mbr-text B {
+  color: #232323;
+}
+.cid-qZPeWiukgk .mbr-text {
+  text-align: center;
+}
+.cid-qZOwqi2Eky {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #efefef;
+}
+.cid-qZOwqi2Eky .card-img {
+  background-color: #fff;
+}
+.cid-qZOwqi2Eky .card-box {
+  background-color: #ffffff;
+  padding: 2rem;
+}
+.cid-qZOwqi2Eky h4 {
+  font-weight: 500;
+  margin-bottom: 0;
+  text-align: left;
+}
+.cid-qZOwqi2Eky p {
+  text-align: left;
+}
+.cid-qZOwqi2Eky .mbr-text {
+  color: #767676;
+}
+.cid-qZOwqi2Eky .card-wrapper {
+  height: 100%;
+  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
+  transition: box-shadow 0.3s;
+}
+.cid-qZOwqi2Eky .card-wrapper:hover {
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.05);
+  transition: box-shadow 0.3s;
+}
+@media (min-width: 992px) {
+  .cid-qZOwqi2Eky .my-col {
+    flex: 0 0 20%;
+    max-width: 20%;
+    padding: 15px;
+  }
+}
 .cid-qVsUzqaj5Q {
   padding-top: 30px;
   padding-bottom: 30px;

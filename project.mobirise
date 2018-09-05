@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Personal Website",
-    "currentPage": "home.html",
+    "currentPage": "graphics.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -2109,7 +2109,7 @@
         }
       ]
     },
-    "home.html": {
+    "index.html": {
       "settings": {
         "main": true,
         "title": "Eli Bogomolny - Home",
